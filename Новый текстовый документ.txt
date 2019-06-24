@@ -1,0 +1,2 @@
+fontawesome.com/icons
+css3gen.com - Для text-shadow.

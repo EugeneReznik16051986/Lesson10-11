@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');/*google-fonts*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #44464f;
+}
+
+a{
+    color: #86c043;
+}
+
+.wrapper{
+    max-width: 1262px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+#header{
+    padding: 15px 0 10px;
+}
+
+#header .wrapper:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.header-logo, .header-address, .header-contact, .header-getprice{
+    float: left;
+}
+
+.header-logo{
+    margin-right: 93px;
+}
+
+.header-address{
+    margin-top: 25px;
+    padding-left: 30px;
+    background: url('img/address-i.png') no-repeat left top;
+    font-style: normal;
+    margin-right: 110px;
+    font-size: 18px;
+}
+
+.header-contact{
+    margin-top: 20px;
+    margin-right: 110px;
+}
+
+.header-contact-phone, .header-contact-mail{
+    display: block;
+    text-decoration: none;
+}
+
+.header-contact-phone{
+    color: #44464f;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 30px;
+    position: relative;
+}
+
+.header-contact-phone:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 19px;
+    background: url('img/phone-i.png') no-repeat center center;
+}
+
+.header-contact-email{
+    font-size: 16px;
+    padding-left: 30px;
+    background: url('img/email-i.png') no-repeat left center;
+    line-height: 16px;
+}
+
+.header-getprice{
+    float: right;
+    margin-top: 20px;
+}
+
+.header-getprice-button{
+    background: #86c043 url('img/price-i.png') no-repeat 35px center;
+    color: #fff;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    width: 220px;
+    border-radius: 3px;
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.header-bottom .wrapper{
+    border-top: 1px solid #cbcccd;
+}
+
+.header-bottom-menu:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header-bottom-menu li a{
+    display: block;
+    float: left;
+    height: 68px;
+    line-height: 68px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #44464f;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.header-bottom-menu li.home a{
+    background: url('img/home-i.png') no-repeat 18px center;
+    padding-left: 50px;
+}
+
+.header-bottom-menu li.current a{
+    background-color: #ffd307;
+    position: relative;
+    top: -1px;
+    border-bottom: 1px solid #ffd307;
+}
+
+
+.header-bottom-menu li a:hover{
+    color: #fff;
+    background-color: #86878e;
+}
+
+/*SLIDER*/
+
+.home-slider .slide{
+    height: 500px;
+    background: url('img/slide1.jpg') no-repeat center center;
+    padding: 130px 0 0 260px;
+    box-sizing: border-box;
+}
+
+.home-slider .slide .slide-title{
+    color: #86c043;
+    font-size: 56px;
+    text-shadow: 1px 1px 0px rgba(68, 70, 79, 1);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.05;
+    margin: 0 0 10px 0;
+}
+
+.home-slider .slide .slide-descr{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*ARTICLE*/
+
+
+.home-news-title{
+    color: #86c043;
+    text-shadow: 1px 1px 0px #a1a2a7;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+.home-news-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.home-news-container-item{
+    background-color: #f5f6f8;
+    width: 403px;
+    height: 446px;
+    float: left;
+    box-shadow: 1px 2px 2px 0px #e3e3e3;
+    margin-right: 26px;
+    border-radius: 3px;
+}
+
+.home-news-container-item:nth-child(3){
+    margin-right: 0;
+}
+
+.home-news-container-item-title{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 26px 30px 21px 26px; 
+
+}
+
+
+.home-news-container-item-text{
+    width: 360px;
+    font-size: 16px;
+    margin: 0px 30px 27px 24px;
+    text-shadow: 1px 1px 2px 0px #86878e;
+}
+
+
+
+/*FOOTER*/
+
+#footer{
+    background-color: #689434;
+    margin-top: 62px;
+    padding: 0 0 60px;
+}
+
+#footer .wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-col{
+    padding-top: 31px;
+    float: left;
+}
+
+.footer-aboutus{
+    width: 316px;
+    font-weight: 300;
+    color: #ceddbe;
+}
+
+.footer-col-title{
+    margin-left: 110px;
+    font-size: 19px;
+    color: #ffd307;
+    margin-bottom: 35px;
+
+}
+
+.footer-menu li a::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-menu li{
+    padding-bottom: 18px;
+}
+
+.footer-menu a{
+    margin-left: 110px;
+    color: #ebf1e4;
+    text-decoration: none;
+}
+
+
+.footer-blog-image{
+    float: left;
+    padding-left: 65px;
+}
+
+
+.footer-blog-title{
+    color: #ceddbe;
+    text-decoration: none;
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.footer-blog li a{
+    width: 107px;
+}
+
+
+
+time{
+    display: block;
+    color: #273516;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px 0px #374d1e;
+    padding-left: 170px;
+    padding-bottom: 30px;
+
+}
+
+.footer-col:nth-child(3+n){
+    padding-left: 100px;
+}
+
+.footer-address{
+    background: url(img/address-i.png) no-repeat left top;
+    width: 234px;
+    font-style: normal;
+    margin-left: 105px;
+    padding-left: 35px;
+    color: #ffffff;
+    font-size: 17px;
+    padding-bottom: 18px;
+
+}
+
+
+
+.footer-phone{     
+    background: url(img/phone-i.png) no-repeat left center;
+    padding-left: 35px;
+    margin-left: 105px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+b{
+    font-weight: 500;
+}
+
+.footer-email{
+    background: url(img/email-i.png) no-repeat left center;
+    width: 234px;
+    display: block;
+    font-size: 16px;
+    padding-left: 35px;
+    margin-left: 105px;
+    margin-top: 30px;
+    color: #ffd307;
+}
+
+.footer-worktime{
+    background: url(img/clock.png) no-repeat left top;
+    font-style: normal;
+    width: 234px;
+    color: #ffffff;
+    padding-left: 35px;
+    margin-left: 105px;
+    margin-top: 26px;
+    font-weight: 300;
+}
+
